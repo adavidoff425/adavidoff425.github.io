@@ -4,15 +4,22 @@
         <link href="style.css" type="text/css" rel="stylesheet" />
     </head>
 <div class="contact">
-<h4>Contact Info: </h4>
-<p><label for="first name">First name:</label>
-<input type="text" id="first name" name="first name" size="10"></p>
-<p><label for="last name">Last name:</label>
-<input type="text" id="last name" name="last name" size="10"></p>
-<p><label for="email">E-mail:</label>
-<input type="text" id="email" name="email" size="10"></p>
-<p><label for="comments">Comments:</label>
-<textarea id="comments" name="comments"></textarea></p>
-<br><input type="submit" value="Submit">
+<h2>Contact Info: </h2>
+<br>
+<form>
+<p>
+<input type="text" id="first name" name="first name" size="25" placeholder="First Name"></p>
+<p>
+<input type="text" id="last name" name="last name" size="25" placeholder="Last Name"></p>
+<p>
+<input type="text" id="email" name="email" size="25" placeholder="Email"></p>
+<p>
+<textarea id="comments" name="comments" placeholder="Tell me about yourself..."></textarea></p>
+<br>
+<p class="form-submit">
+<input class="button" type="submit" value="Submit">
+<input class="button" type="reset" value="Reset">
+</p>
+</form>
 </div>
 </html>
