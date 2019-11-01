@@ -32,6 +32,7 @@ h1, h2, h3 {
     line-height: normal;
     justify-content: center;
     text-align: center;
+    letter-spacing: 0.1em;
 }
 
 .pages {
@@ -125,9 +126,14 @@ img {
     text-decoration: none;
 }
 
-.button:hover, a:hover {
+a:hover {
     background-color: oldlace;
     color: rgb(5, 26, 59);
+}
+
+.button:hover {
+    background-color: rgb(118, 202, 176);
+    color: rgb(5,26,59);
 }
 
 input[type=text] {
@@ -145,11 +151,31 @@ input[type=text] {
     justify-content: space-around;
     height: 10%;
     width: 100%;
-
+    border-bottom: 2px solid oldlace;
 }
 
 .page-header > a {
     border-radius: 0;
-    padding: 5px 6px;
+    padding: 5px 0px;
     text-align: center;
+}
+
+.page-header > h1 {
+    border: transparent black;
+    padding: 10px 5px;
+    background-color: oldlace;
+    box-shadow: 2px 2px 0px 2px;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+.bio-text {
+    margin: 20px 10px;
+    padding: 25px 15px;
+    text-align: justify;
+    text-orientation: upright;
+    text-indent: 5%;
+    font-weight: 600;
+    line-height: 0.6cm;
+    background-color: oldlace;
 }
