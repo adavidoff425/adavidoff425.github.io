@@ -129,11 +129,13 @@ img {
 a:hover {
     background-color: oldlace;
     color: rgb(5, 26, 59);
+    text-decoration: none;
 }
 
 .button:hover {
     background-color: rgb(118, 202, 176);
     color: rgb(5,26,59);
+    text-decoration: none;
 }
 
 input[type=text] {
@@ -170,7 +172,7 @@ input[type=text] {
 }
 
 .bio-text {
-    margin: 20px 10px;
+    margin: 20px 10px 50px;
     padding: 25px 15px;
     text-align: justify;
     text-orientation: upright;
@@ -178,4 +180,26 @@ input[type=text] {
     font-weight: 600;
     line-height: 0.6cm;
     background-color: oldlace;
+}
+
+.skills > h2 {
+    background-color: #343a4a;
+    background-size: contain;
+    font-weight: bolder;
+    color: oldlace;
+    width: 50%;
+}
+
+.table {
+    background-color: rgb(54, 151, 207);
+    color: oldlace;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: rgb(5, 26, 59);
+}
+
+.table-striped tbody tr:nth-of-type(2n+1):hover {
+    background-color: rgb(1, 10, 49);
 }
