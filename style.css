@@ -10,15 +10,17 @@ body {
     color: rgb(32, 117, 167);
     margin: 0 auto;
     padding: 10px 15px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .header {
-    margin-top: 10%;
-    background: white;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    margin: 10% 25%;
+    background: oldlace;
+    padding: 1.5rem 0;
+    border-radius: 5px;
     box-shadow: 2px 2px 15px 2px;
     text-align: center;
     color: rgb(1, 10, 49);
@@ -100,7 +102,6 @@ li {
 
 li > a {
     margin-left: 35%;
-    background: space;
 }
 
 img {
@@ -121,10 +122,11 @@ img {
     margin-left: 10px;
     width: 100px;
     padding: 15px 18px;
+    text-decoration: none;
 }
 
-.button:hover {
-    background-color: rgb(51, 211, 198);
+.button:hover, a:hover {
+    background-color: oldlace;
     color: rgb(5, 26, 59);
 }
 
@@ -136,4 +138,18 @@ input[type=text] {
     border-radius: 5px;
     border: 1px solid;
     padding: 5px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+
+}
+
+.page-header > a {
+    border-radius: 0;
+    padding: 5px 6px;
+    text-align: center;
 }
