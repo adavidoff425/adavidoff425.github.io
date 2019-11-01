@@ -195,7 +195,7 @@ input[type=text] {
 }
 
 .projects {
-    margin-top: 5%;
+    margin-top: 30px;
 }
 
 .table {
@@ -222,4 +222,11 @@ tbody tr:hover {
 
 .proj-link:hover {
     text-decoration: underline;
+}
+
+.projects > h2 {
+    letter-spacing: 0;
+    background-color: oldlace;
+    border-radius: 5px;
+    padding: 10px 0;
 }
