@@ -75,7 +75,7 @@ textarea {
     border: 1px solid;
     resize: none;
     border: 2px outset cadetblue;
-    background: rgba(118,202,176,0.5);
+    background: rgba(118,202,176,0.1);
 }
 
 .contact {
