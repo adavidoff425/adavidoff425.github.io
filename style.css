@@ -7,7 +7,7 @@
 body {
     background-color: rgb(118, 202, 176);
     background-blend-mode: color-burn;
-    background-image: url(/home/ad35/Downloads/Link_to_NYC.jpeg);
+    background-image: url(https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&w=1000&q=80);
     background-repeat: round;
     background-position: top;
     color: rgb(32, 117, 167);
@@ -232,7 +232,7 @@ tbody tr:hover {
 }
 
 .about-page {
-    background-image: url(/home/ad35/Downloads/Link_to_Austin.jpeg);
+    background-image: url(http://www.siliconhillsnews.com/wp-content/uploads/2019/07/Bridges-in-Austin-Texas-965213322_3867x2579-1024x683.jpeg);
 }
 
 .project-page {
